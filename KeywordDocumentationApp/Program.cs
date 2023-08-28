@@ -10,19 +10,16 @@ namespace KeywordDocumentationApp
 
             while (true)
             {
-                Console.WriteLine("\nEnter a Keyword to get its explanation (or 'exit' to quit):");
+                Console.WriteLine(KeyWordList.showstartingtext());
                 string keyword = Console.ReadLine().ToLower();
-
                 if (keyword == "exit")
                 {
                     break;
                 }
-
-                KeywordInfo keywordInfo = KeywordDictionary.GetKeywordInfo(keyword);
+                KeywordInfoBase keywordInfo = KeywordDictionary.GetKeywordInfo(keyword);
                 if (keywordInfo != null)
                 {
-                    Console.WriteLine($"Keyword: {keywordInfo.Keyword}");
-                    Console.WriteLine($"Description: {keywordInfo.Description}");
+                    keywordInfo.DisplayInfo();
                 }
                 else
                 {
