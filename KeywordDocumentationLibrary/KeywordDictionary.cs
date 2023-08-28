@@ -1,9 +1,46 @@
-﻿using KeywordDocumentationLibrary.Keywords;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//namespace KeywordDocumentationLibrary
+//{
+//    public static class KeywordDictionary
+//    {
+//        public static KeywordInfoBase GetKeywordInfo(string keyword)
+//        {
+//switch (keyword.ToLower())
+//{
+//    case "abstract":
+//        return new AbstractKeywordInfo();
+//    case "async":
+//        return new AsyncKeywordInfo();
+//    case "const":
+//        return new ConstKeywordInfo();
+//    case "event":
+//        return new EventKeywordInfo();
+//    case "extern":
+//        return new ExternKeywordInfo();
+//    case "new":
+//        return new NewKeywordInfo();
+//    case "override":
+//        return new OverrideKeuwordInfo();
+//    case "partial":
+//        return new PartialKeywordInfo();
+//    case "readonly":
+//        return new ReadonlyKeywordInfo();
+//    case "sealed":
+//        return new SealedKeywordInfo();
+//    case "static":
+//        return new StaticKeywordInfo();
+//    case "unsafe":
+//        return new UnsafeKeywordInfo();
+//    case "virtual":
+//        return new VirtualKeywordInfo();
+//    case "volatile":
+//        return new VolatileKeywordInfo();
+//    default:
+//        return null;
+//}
+//        }
+//    }
+//}
+using KeywordDocumentationLibrary.Keywords;
 
 namespace KeywordDocumentationLibrary
 {
