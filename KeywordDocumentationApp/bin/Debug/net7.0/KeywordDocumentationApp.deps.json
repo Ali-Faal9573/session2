@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "KeywordDocumentationApp/1.0.0": {
+        "dependencies": {
+          "KeywordDocumentationLibrary": "1.0.0"
+        },
+        "runtime": {
+          "KeywordDocumentationApp.dll": {}
+        }
+      },
+      "KeywordDocumentationLibrary/1.0.0": {
+        "runtime": {
+          "KeywordDocumentationLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeywordDocumentationApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeywordDocumentationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

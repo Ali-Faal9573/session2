@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordDocumentationApp", "KeywordDocumentationApp\KeywordDocumentationApp.csproj", "{3E6196C5-200B-497C-9796-CDF7B109F909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordDocumentationLibrary", "KeywordDocumentationLibrary\KeywordDocumentationLibrary.csproj", "{92C272AD-DAA3-4856-B54A-77390B2CCC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3E6196C5-200B-497C-9796-CDF7B109F909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6196C5-200B-497C-9796-CDF7B109F909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6196C5-200B-497C-9796-CDF7B109F909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C272AD-DAA3-4856-B54A-77390B2CCC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C272AD-DAA3-4856-B54A-77390B2CCC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C272AD-DAA3-4856-B54A-77390B2CCC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C272AD-DAA3-4856-B54A-77390B2CCC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

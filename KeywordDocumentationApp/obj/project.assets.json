@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "KeywordDocumentationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/KeywordDocumentationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KeywordDocumentationLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KeywordDocumentationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../KeywordDocumentationLibrary/KeywordDocumentationLibrary.csproj",
+      "msbuildProject": "../KeywordDocumentationLibrary/KeywordDocumentationLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "KeywordDocumentationLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dragon9573\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Project\\Dotin Class\\02\\KeywordDocumentationApp\\KeywordDocumentationLibrary\\KeywordDocumentationLibrary.csproj": {
+              "projectPath": "D:\\Project\\Dotin Class\\02\\KeywordDocumentationApp\\KeywordDocumentationLibrary\\KeywordDocumentationLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
